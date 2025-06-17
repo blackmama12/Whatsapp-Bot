@@ -1,3 +1,4 @@
+
 # 🤖 WhatsApp Bot using Baileys (Termux Compatible)
 
 A simple WhatsApp bot built using [@whiskeysockets/baileys](https://github.com/WhiskeySockets/Baileys), designed to run directly on **Termux**. This bot connects to WhatsApp Web and responds to simple text commands like `hi` and `bye`.
@@ -45,7 +46,6 @@ npm install @whiskeysockets/baileys qrcode-terminal pino
 node bot.js
 ```
 
-> Replace `bot.js` with your actual file name if it's different.
 
 - A QR code will appear in the terminal.
 - Scan it using **WhatsApp > Linked Devices**.
@@ -80,7 +80,7 @@ whatsapp-bot-termux/
 
 ## 🧑‍💻 Author
 
-Made with ❤️ by **Your Name**  
+Made with ❤️ by **HackersNexus**  
 Feel free to fork, modify, and share!
 
 ---
