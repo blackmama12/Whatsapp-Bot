@@ -27,8 +27,8 @@ pkg install nodejs git -y
 ### 2. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/whatsapp-bot-termux.git
-cd whatsapp-bot-termux
+git clone https://github.com/HackersNexus/Whatsapp-Bot
+cd Whatsapp-Bot
 ```
 
 ### 3. Install Dependencies
