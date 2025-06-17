@@ -21,8 +21,11 @@ A simple WhatsApp bot built using [@whiskeysockets/baileys](https://github.com/W
 ### 1. Termux Setup
 
 ```bash
+
 pkg update && pkg upgrade -y
 pkg install nodejs git -y
+apt update -y
+apt upgrade -y
 ```
 
 ### 2. Clone the Repository
