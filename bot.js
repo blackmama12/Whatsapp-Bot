@@ -45,7 +45,19 @@ async function startBot() {
     const text = msg.message.conversation || msg.message.extendedTextMessage?.text;
 
     if (text && text.toLowerCase() === 'hi') {
-      await sock.sendMessage(msg.key.remoteJid, { text: 'Hello from Termux Bot 🤖' });
+      await sock.sendMessage(msg.key.remoteJid, { text: '*Hey  How are you? 😊*' });
+    }
+
+if (text && text.toLowerCase() === 'hello') {
+      await sock.sendMessage(msg.key.remoteJid, { text: 'Hello 😊' });
+    }
+
+if (text && text.toLowerCase() === 'bot') {
+      await sock.sendMessage(msg.key.remoteJid, { text: '🤣🤣🤣🤣' });
+    }
+
+if (text && text.toLowerCase() === 'Good Morning') {
+      await sock.sendMessage(msg.key.remoteJid, { text: '- "*Good morning! Hope you have a wonderful day ahead ☀️😊*"  ' });
     }
 
     if (text && text.toLowerCase() === 'bye') {
