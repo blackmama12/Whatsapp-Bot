@@ -44,16 +44,54 @@ async function startBot() {
 
     const text = msg.message.conversation || msg.message.extendedTextMessage?.text;
 
-    if (text.includes('hi') || text.includes('hey')) {
-      await sock.sendMessage(sender, { text: 'Hello' });
-    } else if (hour === 6 && text.includes('morning')); {
-      await sock.sendMessage(sender, { text: 'Good Morning! 😊' });
-    } else if (hour === 16 && text.includes('evening')); {
-      await sock.sendMessage(sender, { text: 'Good evening 🌆' });
-    } else if (hour === 22 && text.includes('good night')); {
-      await sock.sendMessage(sender, { text: 'Good Night 🌙' });
-   }
- });
+    if (text && text.toLowerCase() === 'hi') {
+      await sock.sendMessage(msg.key.remoteJid, { text: 'Hello from Arun Bot 🤖' });
+    }
+
+ if (text && text.toLowerCase() === 'Good Morning') {
+      await sock.sendMessage(msg.key.remoteJid, { text: 'Good Morning!😊 });
+    }
+
+ if (text && text.toLowerCase() === 'Good evening') {
+      await sock.sendMessage(msg.key.remoteJid, { text: 'Good evening🌆' });
+    }
+
+ if (text && text.toLowerCase() === 'hi') {
+      await sock.sendMessage(msg.key.remoteJid, { text: 'Good Night🌙' });
+    }
+
+ if (text && text.toLowerCase() === 'hello') {
+      await sock.sendMessage(msg.key.remoteJid, { text: 'Hello from Arun Bot 🤖' });
+    }
+
+ if (text && text.toLowerCase() === 'helo') {
+      await sock.sendMessage(msg.key.remoteJid, { text: 'Hello from Arun Bot 🤖' });
+    }
+
+ if (text && text.toLowerCase() === 'hey') {
+      await sock.sendMessage(msg.key.remoteJid, { text: 'Hello from Arun Bot 🤖' });
+    }
+
+ if (text && text.toLowerCase() === 'Da') {
+      await sock.sendMessage(msg.key.remoteJid, { text: 'Hello from Arun Bot 🤖' });
+    }
+
+ if (text && text.toLowerCase() === 'heloo') {
+      await sock.sendMessage(msg.key.remoteJid, { text: 'Hello from Arun Bot 🤖' });
+    }
+
+ if (text && text.toLowerCase() === 'arun') {
+      await sock.sendMessage(msg.key.remoteJid, { text: 'Hello from Arun Bot 🤖' });
+    }
+
+ if (text && text.toLowerCase() === 'heloo') {
+      await sock.sendMessage(msg.key.remoteJid, { text: 'Hello from Arun Bot 🤖' });
+    }
+
+    if (text && text.toLowerCase() === 'bye') {
+      await sock.sendMessage(msg.key.remoteJid, { text: 'Goodbye 👋' });
+    }
+  });
 }
 
 startBot();
