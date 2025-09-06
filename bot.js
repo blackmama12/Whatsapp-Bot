@@ -56,7 +56,7 @@ async function startBot() {
       await sock.sendMessage(msg.key.remoteJid, { text: 'Good evening!🌆'});
     }
 
- if (text && text.toLowerCase() === 'Good Night) {
+ if (text && text.toLowerCase() === 'Good Night') {
       await sock.sendMessage(msg.key.remoteJid, { text: 'Good Night!🌙'});
     }
 
