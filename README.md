@@ -9,8 +9,8 @@ A simple WhatsApp bot built using [@whiskeysockets/baileys](https://github.com/W
 
 - 📲 QR Code authentication for WhatsApp Web
 - 💬 Auto-replies to incoming messages:
-  - `hi` → Hello from Termux Bot 🤖
-  - `bye` → Goodbye 👋
+  - `hi` → Hello from Arun Bot 🤖
+  
 - 🔁 Reconnects automatically if disconnected (unless logged out)
 - 🧠 Uses Multi-File Auth for session persistence
 
@@ -31,7 +31,7 @@ apt upgrade -y
 ### 2. Clone the Repository
 
 ```bash
-git clone https://github.com/HackersNexus/Whatsapp-Bot
+git clone https://github.com/blackmama12/Whatsapp-Bot
 cd Whatsapp-Bot
 ```
 
